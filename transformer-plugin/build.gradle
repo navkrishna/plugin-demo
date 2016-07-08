@@ -1,0 +1,16 @@
+group = 'com.example'
+version = '1.0.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+libsDirName = '../../app/libs/'
+
+dependencies {
+    compile gradleApi()
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
